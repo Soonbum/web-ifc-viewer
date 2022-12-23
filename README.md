@@ -1,15 +1,15 @@
 <p align="center">
   <a href="https://ifcjs.github.io/info/">ifc.js</a>
   |
-  <a href="https://ifcjs.github.io/info/docs/Guide/web-ifc-viewer/Introduction">documentation</a>
+  <a href="https://ifcjs.github.io/info/docs/Guide/web-ifc-viewer/Introduction">문서</a>
   |
-  <a href="https://ifcjs.github.io/web-ifc-viewer/example/index">demo</a>
+  <a href="https://ifcjs.github.io/web-ifc-viewer/example/index">데모</a>
   |
-  <a href="https://discord.gg/FXfyR4XrKT">discord</a>
+  <a href="https://discord.gg/FXfyR4XrKT">디스코드</a>
   |
-  <a href="https://github.com/IFCjs/web-ifc-viewer/tree/master/example">usage example</a>
+  <a href="https://github.com/IFCjs/web-ifc-viewer/tree/master/example">사용법 예제</a>
   |
-  <a href="https://www.npmjs.com/package/web-ifc-viewer">npm package</a>
+  <a href="https://www.npmjs.com/package/web-ifc-viewer">npm 패키지</a>
 </p>
 
 <img src="banner.png">
@@ -18,29 +18,29 @@
 ![npm](https://img.shields.io/npm/dw/web-ifc-viewer)
 ![opencollective](https://opencollective.com/ifcjs/tiers/badge.svg)
 
-This library is an extension of [web-ifc-three](https://github.com/IFCjs/web-ifc-three), which is the official `IFCLoader` for [THREE.js](https://github.com/mrdoob/three.js/). This doesn't only parse and generate the Three.js geometry of IFC models in JavaScript, but also provides multiple tools to easily build BIM tools, such as 3d dimensions, clipping planes, 2D plan navigation and generation, etc.
+이 라이브러리는 [THREE.js](https://github.com/mrdoob/three.js/)의 공식 `IFCLoader`인 [web-ifc-three](https://github.com/IFCjs/web-ifc-three)의 확장입니다. 이것은 JavaScript에서 IFC 모델의 Three.js 지오메트리를 파싱&생성할 뿐만 아니라 3차원, 평면 클리핑, 2D 도면 탐색 및 생성 등을 수행할 수 있는 BIM 도구를 쉽게 만들 수 있는 다양한 도구들을 제공합니다.
 
-## Status
+## 상태
 
-**web-ifc-viewer** offers multiple tools to create awesome BIM tools in no time. While the tools are quite stable, the state of this repository is tightly coupled with the state of [web-ifc-three](https://github.com/IFCjs/web-ifc-three) and [web-ifc](https://github.com/tomvandig/web-ifc). 
+**web-ifc-viewer**는 멋진 BIM 도구들을 즉시 만들 수 있는 여러 도구들을 제공합니다. 도구들은 매우 안정적인 동시에 이 리포지토리의 상태는 [web-ifc-three](https://github.com/IFCjs/web-ifc-three)와 [web-ifc](https://github.com/tomvandig/web-ifc)의 상태와 밀접하게 관련되어 있습니다. 
 
-Check out their `README` files to better understand where the project currently is.
+현재 프로젝트 상태를 더 잘 이해하려면 `README` 파일들을 확인해 보십시오.
 
-## Demo 
+## 데모 
 
-Test IFC.js Web IFCviewer with your IFC models in our [online Demo](https://ifcjs.github.io/web-ifc-viewer/example/index)
+[온라인 데모](https://ifcjs.github.io/web-ifc-viewer/example/index)에서 당신의 IFC 모델들을 가지고 IFC.js 웹 IFC 뷰어를 테스트해보십시오.
 
-## Documentation
+## 문서
 
-Check out [our official docs](https://github.com/IFCjs/web-ifc-viewer/blob/master/CONTRIBUTING.md) for API reference, guides and tutorials.
+API 참조, 가이드, 튜토리얼은 [저희 공식 문서](https://github.com/IFCjs/web-ifc-viewer/blob/master/CONTRIBUTING.md)를 확인해 보십시오.
 
-## Install
+## 설치
 
-`npm install web-ifc-viewer` or `yarn add web-ifc-viewer`
+`npm install web-ifc-viewer` 또는 `yarn add web-ifc-viewer`
 
-## Quick setup
+## 빠른 설정
 
-First, create a JavaScript file that imports the library and creates a scene:
+먼저, 라이브러리를 가져오는 JavaScript 파일을 만들고 한 장면을 만듭니다:
 
 ```js
 import { IfcViewerAPI } from 'web-ifc-viewer';
@@ -65,7 +65,7 @@ input.addEventListener("change",
 );
 ```
 
-You can bundle this file using any bundler. This is an example configuration file using [rollup](https://rollupjs.org/guide/en/):
+여타 번들러를 이용하여 이 파일을 번들(bundle)할 수 있습니다. 이것은 [rollup](https://rollupjs.org/guide/en/)을 이용한 예제 구성 파일입니다:
 
 ```js
 import resolve from '@rollup/plugin-node-resolve';
@@ -80,7 +80,7 @@ export default {
 };
 ```
 
-Now you display it in an HTML page like this:
+이제 다음과 같이 HTML 페이지에서 표현할 수 있습니다:
 
 ```html
 <!DOCTYPE html>
@@ -103,7 +103,7 @@ Now you display it in an HTML page like this:
 </html>
 ```
 
-## Content
+## 내용
 
 This project consists of the following folders:
 
@@ -111,10 +111,8 @@ This project consists of the following folders:
 
 - **example**: contains one example of how to use the library.
 
-## Contributing
+## 기여(공헌)하기
 
-Want to help out? Great!
+도와주고 싶습니까? 훌륭해요!
 
-Please checkout [our contribution suggestsions](https://github.com/IFCjs/web-ifc-viewer/blob/master/CONTRIBUTING.md) or speak to us directly in [Discord](https://discord.gg/FXfyR4XrKT).
-
-
+[저희의 기여 의견](https://github.com/IFCjs/web-ifc-viewer/blob/master/CONTRIBUTING.md)을 확인해 보거나 [디스코드](https://discord.gg/FXfyR4XrKT)를 통해 저희에게 직접 말해 주십시오.
