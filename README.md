@@ -105,11 +105,11 @@ export default {
 
 ## 내용
 
-This project consists of the following folders:
+이 프로젝트는 다음 폴더들로 구성되어 있습니다:
 
-- **viewer**: contains the source code.
+- **viewer**: 소스 코드를 포함하고 있음.
 
-- **example**: contains one example of how to use the library.
+- **example**: 라이브러리를 어떻게 사용하는지에 대한 예제를 포함하고 있습니다.
 
 ## 기여(공헌)하기
 
